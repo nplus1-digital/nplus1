@@ -1,9 +1,9 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: Hacked Jekyll
-description: Jekyll microtheme that looks like JSON
+title: N + 1
+description: Ryan's Sandbox 
 baseurl: ""
-url: https://hacked-jekyll.netlify.app
+url: https://github.com/rriggin/nplus1
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
@@ -22,8 +22,7 @@ json:
     office: Foobar Hall 1.23
     phone: +1 234 567 890
     email: username@domain.com
-  demo: https://hacked-jekyll.netlify.app
-  source: https://github.com/piazzai/hacked-jekyll
+  source: https://github.com/rriggin/nplus1
   profiles:
     facebook: https://www.facebook.com
     twitter: https://twitter.com
