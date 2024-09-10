@@ -19,6 +19,8 @@ json:
     email: ryan@nplus1.digital
   source: 
 
+theme: hacked-jekyll
+
 exclude:
   - LICENSE
   - README.md
