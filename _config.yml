@@ -1,35 +1,23 @@
 # this is only for search engines, it does not appear in the home
 # as long as the json variables name and description are provided
-title: N + 1
-description: Ryan's Sandbox 
+title: N+1 Digital
+description: Fractional CMO + Growth Tech for startups.
 baseurl: ""
-url: https://github.com/rriggin/nplus1
+repository: https://github.com/nplus1-digital/nplus1
 
 # this information is shown on the homepage, all fields are optional and
 # can be declared either as a single string or as a string array/hash
 json:
-  name: Place Holder
+  name: N+1 Digital 
   description:
-    - Hello!
-    - This tiny website
-    - Looks like json
-  cv: assets/cv.pdf
-  address:
-    - University of Jekyll
-    - Department of Themes
-    - 123 Main St, Anytown, USA
+    - Fractional Growth
+    - For Startups & Ecommerce Brands
+    - Click below to start 👇
+  start: book a meeting >
   contact:
-    office: Foobar Hall 1.23
-    phone: +1 234 567 890
-    email: username@domain.com
-  source: https://github.com/rriggin/nplus1
-  profiles:
-    facebook: https://www.facebook.com
-    twitter: https://twitter.com
-    instagram: https://www.instagram.com
-    linkedin: https://www.linkedin.com
-    stackoverflow: https://stackoverflow.com
-    github: https://github.com
+    phone: +1 913-593-1084
+    email: ryan@nplus1.digital
+  source: 
 
 exclude:
   - LICENSE

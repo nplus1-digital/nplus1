@@ -13,7 +13,7 @@ layout: default
     {% if site.json.description.first %}
     <div id="typed-strings">
       {% for i in site.json.description %}
-      <span>{{ i | prepend: '"' | append: '",'}}</span>
+     <span>{{ i | prepend: '' | append: ''}}</span>
       {% endfor %}
     </div>
     <p><span class="key">description</span>{% include typed.html %}</p>
@@ -28,6 +28,12 @@ layout: default
     {% if site.json.cv %}
     {% assign cv = site.json.cv | split: "/" | slice: -1 %}
     <p><span class="key">cv</span><span class="attr"><a href="{{ site.json.cv }}" target="_blank">{{ cv }}</a></span></p>
+    {% endif %}
+  </div>
+  <div class="block">
+    {% if site.json.start %}
+    {% assign start = site.json.start | split: "/" | slice: -1 %}
+    <p><span class="key">start</span><span class="attr"><a href="https://calendly.com/ryanriggin" target="_blank">{{ start }}</a></span></p>
     {% endif %}
   </div>
   <div class="block">
