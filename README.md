@@ -1,4 +1,6 @@
-# hacked-jekyll
+# N+1 Digital Website
+
+This is the website for N+1 Digital. It is a static website built with Jekyll and hosted on Netlify. 
 
 Hacked Jekyll is a responsive, minimalistic Jekyll theme for a tiny (163.3 kb!) personal website. It consists of a homepage and a 404 page. The homepage lists information set within the configuration file in a format that resembles JSON, giving the website a "hacked" appearance. The user description features [typed.js](https://mattboldt.com/demos/typed-js/) to cycle through multiple lines of text, as long as multiple lines are provided in the configuration.
 
